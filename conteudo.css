@@ -1,0 +1,55 @@
+/* Adiciona estilo da pagina do conteudo */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #2c8297;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo-conteudo {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px #888888;
+    width: 80%;
+    text-align: center;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.conteudo-capitulo {
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    text-indent: 40px;
+}
+
+.botao-voltar {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #8B008B;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao-voltar:hover {
+    background-color: #0062cc;
+}
