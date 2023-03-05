@@ -4,7 +4,6 @@ header {
     color: #ffffff;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 10px;
     padding: 10px;
@@ -14,15 +13,17 @@ header {
 
 h1.titulo-pagina {
     margin: 0;
+    margin-right: 20px; /* adicione esta linha */
     font-size: 36px;
     font-weight: 700;
-    letter-spacing: 2px;
-    color: #333
+    letter-spacing: 1px;
+    color: #333;
 }
 
 form {
     display: flex;
     align-items: center;
+    margin-left: auto; /* novo */
 }
 
 input[type="text"] {
@@ -45,7 +46,6 @@ button[type="submit"] {
     color: #333333;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-left: -5px;
 }
 
 button[type="submit"]:hover {
@@ -80,7 +80,7 @@ body {
 .card-title {
     font-size: 24px;
     margin: 0;
-    color: #333
+    color: #333;
 }
 
 .card-body {
