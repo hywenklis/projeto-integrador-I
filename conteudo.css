@@ -1,12 +1,12 @@
 /* Adiciona estilo da pagina do conteudo */
 
-body {
+body.body-conteudo {
     font-family: 'Open Sans', sans-serif;
     background-color: #F1F1F1;
     text-align: center;
 }
 
-h1,
+h1.titulo-conteudo,
 h2,
 h3 {
     color: #2c8297;
