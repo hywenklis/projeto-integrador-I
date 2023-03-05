@@ -61,6 +61,7 @@ h3 {
 }
 
 .imagem img {
+    height: auto;
     max-width: 100%;
     /* define a largura máxima da imagem como 100% do contêiner pai */
     border: 2px solid #ccc;
