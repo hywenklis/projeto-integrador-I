@@ -1,0 +1,93 @@
+header {
+	background-color: #B0E0E6;
+	color: #ffffff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+  color: #333
+}
+
+form {
+	display: flex;
+	align-items: center;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f5f5f5;
+	margin-right: 10px;
+	width: 300px;
+	font-size: 16px;
+	color: #333333;
+}
+
+button[type="submit"] {
+	padding: 10px 20px;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #333333;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+	background-color: #333333;
+	color: #ffffff;
+	transition: all 0.3s ease;
+}
+
+
+
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+  background-color: #f5f5f5;
+  border-radius: 8px 8px 0 0;
+  padding: 12px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.card-body {
+  padding: 12px;
+}
+
+.card-description {
+  font-size: 16px;
+  margin: 0;
+  color: #555;
+}
