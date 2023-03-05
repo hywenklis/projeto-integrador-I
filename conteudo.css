@@ -52,3 +52,19 @@ h3 {
 .botao-voltar:hover {
     background-color: #0062cc;
 }
+
+.imagem {
+    text-align: center;
+    /* centraliza a imagem horizontalmente */
+    margin: 20px 0;
+    /* adiciona margem acima e abaixo da imagem */
+}
+
+.imagem img {
+    max-width: 100%;
+    /* define a largura máxima da imagem como 100% do contêiner pai */
+    border: 2px solid #ccc;
+    /* adiciona uma borda de 2 pixels sólida cinza claro */
+    box-shadow: 0 0 5px #ccc;
+    /* adiciona uma sombra à imagem */
+}
