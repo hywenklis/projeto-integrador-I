@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<title>Notas de Leitura</title>
+<link rel="stylesheet" href="/path/to/styles/default.css">
+<link rel="stylesheet" href="style-capitulo.css">
+<script src="/path/to/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<style>
+
+</style>
+</head>
+
+<body>
+  <h1>Notas de Leitura - Livro</h1>
+  <div class="capitulo">
+    <h2 class="titulo-capitulo">Capítulo 1 - O código limpo</h2>
+    <p class="conteudo-capitulo"> O Capítulo 1 de "Clean Code: A Handbook of Agile Software Craftsmanship" de Robert C.
+      Martin é uma introdução
+      fundamental à importância da escrita de código limpo e organizado. Neste capítulo, Martin destaca a importância do
+      código limpo como uma forma de respeito ao seu próprio trabalho e ao trabalho dos outros desenvolvedores que
+      poderão manter ou ampliar o código no futuro.</p>
+
+    <p class="conteudo-capitulo"> Ele argumenta que o código limpo é um indicador da habilidade e da atenção aos
+      detalhes
+      dos desenvolvedores, e
+      que escrever código claro, conciso e fácil de ler é uma forma de garantir que o software funcione de maneira
+      eficiente e confiável. Além disso, o código limpo também é importante porque facilita a manutenção e a evolução do
+      software, tornando mais fácil corrigir bugs e adicionar novos recursos.</p>
+
+    <p class="conteudo-capitulo"> Martin também discute algumas técnicas e boas práticas para escrever código limpo,
+      incluindo a seguir convenções
+      de codificação, nomear variáveis e funções de maneira clara e descritiva, e evitar a duplicação de código. Ele
+      também destaca a importância de escrever testes unitários para garantir que o código funcione como o esperado.</p>
+
+    <p class="conteudo-capitulo"> Em resumo, o Capítulo 1 de "Clean Code" é uma leitura obrigatória para qualquer
+      desenvolvedor que busque escrever
+      código de alta qualidade. Ele fornece uma introdução clara e concisa aos princípios básicos da escrita de código
+      limpo e mostra como seguir boas práticas e técnicas pode levar a software mais confiável, eficiente e fácil de
+      manter. Ao seguir as dicas de Martin, os desenvolvedores podem criar software de qualidade e mostrar respeito ao
+      seu trabalho e ao trabalho dos outros que poderão manter ou ampliar o código no futuro.</p>
+
+    <div class="code-block">
+      <button class="copy-button">Copiar</button>
+      <p class="copy-feedback">Copiado!</p>
+      </button>
+      <pre><code class="java">
+  public class CleanCode {
+    public void organizeCode() {
+      System.out.println("Código limpo é como uma pessoa organizada.");
+    }
+  }
+  </code></pre>
+
+    </div>
+
+  </div>
+  <div class="titulo-capitulo">
+    <h2>Capítulo 2</h2>
+    <p class="conteudo-capito">Conteúdo do capítulo 2</p>
+  </div>
+  <!-- Adicionar mais capítulos se necessário -->
+
+  <script>
+    const copyButton = document.querySelector('.copy-button');
+    const codeBlock = document.querySelector('.code-block pre code');
+
+    copyButton.addEventListener('click', function () {
+      navigator.clipboard.writeText(codeBlock.innerText).then(function () {
+        copyButton.textContent = 'Copiado!';
+        setTimeout(function () {
+          copyButton.textContent = 'Copiar';
+        }, 2000);
+      });
+    });
+
+  </script>
+</body>
+
+</html>

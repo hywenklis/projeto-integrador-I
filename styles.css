@@ -138,3 +138,82 @@ body {
 		font-size: 14px;
 	}
 }
+
+
+
+/* Adiciona estilo da pagina do conteudo */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #006400;
+    font-weight: bold;
+    text-align: center;
+}
+
+.capitulo {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px #888888;
+    width: 80%;
+    text-align: left;
+}
+
+.titulo-capitulo {
+    color: #8B008B;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.conteudo-capitulo {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.code-block {
+    background-color: #f2f2f2;
+    /* cor de fundo */
+    padding: 10px;
+    /* espaçamento interno */
+    border-radius: 5px;
+    /* borda arredondada */
+    position: relative;
+    /* posição relativa */
+}
+
+.code-block pre code {
+    background-color: transparent;
+    /* remova a cor de fundo padrão */
+}
+
+
+.copy-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.copy-feedback {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    display: none;
+    color: green;
+}
+
+.copy-button:hover {
+    color: #8B008B;
+}
